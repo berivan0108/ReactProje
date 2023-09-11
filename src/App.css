@@ -1,0 +1,97 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #FFD56B;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  width: 400px;
+  padding: 80px;
+  background-color: #ba2222;
+  border-radius: 40px;
+  box-shadow: 2 2 20px rgba(2, 2, 0, 0.2);
+}
+
+
+h1 {
+  color: #FF7B54;
+  font-size: 24px; 
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px; 
+}
+
+input[type="text"] {
+  height: 40px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+}
+
+
+button {
+  height: 50px;
+  width: 220px; 
+  background-color: #FF5934;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #FF4500; 
+}
+
+
+button:hover {
+  background-color: #FF5934;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFB26B;
+  border: 1px solid #FF7B54;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px 0;
+}
+
+li button {
+  background-color:red;
+  color: #FFF;
+  border: none;
+  border-radius: 20px;
+  padding: 0px 0px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+li button:hover {
+  background-color: salmon;
+}
+
